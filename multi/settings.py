@@ -254,8 +254,8 @@ STATICFILES_FINDERS = [
 ]
 
 MULTISITE_CMS_URLS = {
-    'www.example.com': 'multi.urls1',
-    'www.example2.com': 'multi.urls2',
+    'www.example.com:8000': 'multi.urls1',
+    'www.example2.com:8000': 'multi.urls2',
 }
 MULTISITE_CMS_ALIASES = {
     'www.example.com': ('alias1.example.com', 'alias2.example.com',),
